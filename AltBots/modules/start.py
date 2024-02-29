@@ -8,8 +8,8 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Soul_Network"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Soul_Network")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/og_aline"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BontenCriminals")
     ],
     [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/Anikchakr")
@@ -40,7 +40,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/d57195e1314a664266bea.jpg",
+                    "https://telegra.ph/file/0602b2109171b08d01d9f.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
