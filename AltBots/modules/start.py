@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Soul_Network"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Soul_Network")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", ""),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://t.me/akari_updates")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Anikchakr")
     ]
 ]
 
@@ -34,7 +34,7 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [Aquamarine](https://t.me/Star_Eye_Killer_Hunter)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [🕉HACKER • 𝐁𝚯𝚴𝐓𝚵𝚴](https://t.me/xzc_hacker)**\n\n"
         TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
